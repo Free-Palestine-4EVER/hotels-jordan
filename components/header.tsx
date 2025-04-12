@@ -39,6 +39,9 @@ export default function Header() {
             <Link href="/things-to-do" className="text-sm font-medium hover:text-teal-600 transition-colors">
               THINGS TO DO
             </Link>
+            <Link href="/blog" className="text-sm font-medium hover:text-teal-600 transition-colors">
+              BLOG
+            </Link>
             <Link href="/travel-tips" className="text-sm font-medium hover:text-teal-600 transition-colors">
               TRAVEL TIPS
             </Link>
@@ -119,6 +122,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 THINGS TO DO
+              </Link>
+              <Link
+                href="/blog"
+                className="text-lg font-medium hover:text-teal-600 transition-colors py-2 border-b"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                BLOG
               </Link>
               <Link
                 href="/travel-tips"
