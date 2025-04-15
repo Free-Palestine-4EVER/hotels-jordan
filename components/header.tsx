@@ -23,30 +23,13 @@ export default function Header() {
               HOME
             </Link>
             <Link href="/destinations" className="text-sm font-medium hover:text-teal-600 transition-colors">
-              DESTINATIONS
-            </Link>
-            <Link href="/hotels" className="text-sm font-medium hover:text-teal-600 transition-colors">
-              HOTELS
-            </Link>
-            <a
-              href="https://www.discovercars.com/?a_aid=MMC&a_bid=4414fbe0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium hover:text-teal-600 transition-colors"
-            >
-              CAR RENTAL
-            </a>
-            <Link href="/things-to-do" className="text-sm font-medium hover:text-teal-600 transition-colors">
-              THINGS TO DO
+              EXPLORE JORDAN
             </Link>
             <Link href="/blog" className="text-sm font-medium hover:text-teal-600 transition-colors">
               BLOG
             </Link>
             <Link href="/travel-tips" className="text-sm font-medium hover:text-teal-600 transition-colors">
               TRAVEL TIPS
-            </Link>
-            <Link href="/planning-guide" className="text-sm font-medium hover:text-teal-600 transition-colors">
-              PLANNING
             </Link>
             <Link href="/contact" className="text-sm font-medium hover:text-teal-600 transition-colors">
               CONTACT
@@ -98,30 +81,7 @@ export default function Header() {
                 className="text-lg font-medium hover:text-teal-600 transition-colors py-2 border-b"
                 onClick={() => setIsMenuOpen(false)}
               >
-                DESTINATIONS
-              </Link>
-              <Link
-                href="/hotels"
-                className="text-lg font-medium hover:text-teal-600 transition-colors py-2 border-b"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                HOTELS
-              </Link>
-              <a
-                href="https://www.discovercars.com/?a_aid=MMC&a_bid=4414fbe0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium hover:text-teal-600 transition-colors py-2 border-b"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                CAR RENTAL
-              </a>
-              <Link
-                href="/things-to-do"
-                className="text-lg font-medium hover:text-teal-600 transition-colors py-2 border-b"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                THINGS TO DO
+                EXPLORE JORDAN
               </Link>
               <Link
                 href="/blog"
@@ -136,13 +96,6 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 TRAVEL TIPS
-              </Link>
-              <Link
-                href="/planning-guide"
-                className="text-lg font-medium hover:text-teal-600 transition-colors py-2 border-b"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                PLANNING
               </Link>
               <Link
                 href="/contact"
