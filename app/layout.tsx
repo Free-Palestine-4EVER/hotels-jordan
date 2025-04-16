@@ -10,7 +10,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Hotels Jordan | Your Guide to Jordan's Best Accommodations",
   description: "Explore Jordan's hotels, destinations, and activities with our comprehensive travel guide.",
+<<<<<<< HEAD
     generator: 'v0.dev'
+=======
+>>>>>>> 3ff535879da28e2e3cbabbbdbd4e0cc2fe1b8745
 }
 
 export default function RootLayout({
@@ -38,6 +41,9 @@ export default function RootLayout({
     </html>
   )
 }
+<<<<<<< HEAD
 
 
 import './globals.css'
+=======
+>>>>>>> 3ff535879da28e2e3cbabbbdbd4e0cc2fe1b8745
